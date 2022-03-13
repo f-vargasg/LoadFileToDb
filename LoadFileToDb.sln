@@ -11,6 +11,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadFileToDb.BL", "LoadFile
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadFileToDb.DL", "LoadFileToDb.DL\LoadFileToDb.DL.csproj", "{6BAE1496-5FE0-4600-9DC5-18CC13ACDC79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadFileToDb.WinForm.TestUI", "LoadFileToDb.WinForm.TestUI\LoadFileToDb.WinForm.TestUI.csproj", "{890F2959-9A2A-4DCD-9C1C-549BF2FE3591}"
+	ProjectSection(ProjectDependencies) = postProject
+		{522EAF2F-BFA8-4769-8BC2-35B25E12D8D0} = {522EAF2F-BFA8-4769-8BC2-35B25E12D8D0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadFileToDb.MySrvHost", "LoadFileToDb.Console.Host\LoadFileToDb.MySrvHost.csproj", "{A8AC6F9D-A03E-46D9-8607-AF368DBD8ED3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +40,14 @@ Global
 		{6BAE1496-5FE0-4600-9DC5-18CC13ACDC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BAE1496-5FE0-4600-9DC5-18CC13ACDC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BAE1496-5FE0-4600-9DC5-18CC13ACDC79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{890F2959-9A2A-4DCD-9C1C-549BF2FE3591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890F2959-9A2A-4DCD-9C1C-549BF2FE3591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890F2959-9A2A-4DCD-9C1C-549BF2FE3591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890F2959-9A2A-4DCD-9C1C-549BF2FE3591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8AC6F9D-A03E-46D9-8607-AF368DBD8ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8AC6F9D-A03E-46D9-8607-AF368DBD8ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8AC6F9D-A03E-46D9-8607-AF368DBD8ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8AC6F9D-A03E-46D9-8607-AF368DBD8ED3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

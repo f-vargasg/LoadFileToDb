@@ -1,1 +1,1 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="LoadFileToDb.WcfLoadFileSrv.Service1" CodeBehind="ProcessFileToDBSrv.svc.cs" %>
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="LoadFileToDb.WcfLoadFileSrv.ProcessFileToDBSrv" CodeBehind="ProcessFileToDBSrv.svc.cs" %>

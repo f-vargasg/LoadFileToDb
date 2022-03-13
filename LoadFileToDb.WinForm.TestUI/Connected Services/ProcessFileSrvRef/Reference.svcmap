@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ea3d2e39-da23-47fe-bd87-a7320686233f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50329/ProcessFileToDBSrv.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ProcessFileToDBSrv.xsd" MetadataType="Schema" ID="1f3b01ce-ba42-4d5e-9cda-83125579acd0" SourceId="1" SourceUrl="http://localhost:50329/ProcessFileToDBSrv.svc?xsd=xsd2" />
+    <MetadataFile FileName="ProcessFileToDBSrv1.xsd" MetadataType="Schema" ID="97ec0c7c-dc6f-433b-94f1-c2e06507f178" SourceId="1" SourceUrl="http://localhost:50329/ProcessFileToDBSrv.svc?xsd=xsd0" />
+    <MetadataFile FileName="ProcessFileToDBSrv.wsdl" MetadataType="Wsdl" ID="98fdcc48-3ab4-4f34-b3c4-2fdda4d1b1c7" SourceId="1" SourceUrl="http://localhost:50329/ProcessFileToDBSrv.svc?wsdl" />
+    <MetadataFile FileName="ProcessFileToDBSrv.disco" MetadataType="Disco" ID="79e3dbb9-af00-41e6-8568-21f4412a840b" SourceId="1" SourceUrl="http://localhost:50329/ProcessFileToDBSrv.svc?disco" />
+    <MetadataFile FileName="ProcessFileToDBSrv2.xsd" MetadataType="Schema" ID="8ddef233-4509-4176-8cf6-4442b8d25358" SourceId="1" SourceUrl="http://localhost:50329/ProcessFileToDBSrv.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
